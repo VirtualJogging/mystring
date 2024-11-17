@@ -1,6 +1,9 @@
 #include "strcount.h"
 
-int strcount(char string[])
+int strcount(char *str)
 {
-    
+    int count = 0;
+    while(str[count] != EOF)
+        count++;
+    return count;
 }
