@@ -2,6 +2,6 @@
 #define MYSTRING_H
 
 #include "strcount.h"
-#include "Strcpy.h"
+#include "strcpy.h"
 
 #endif // MYSTRING_H
